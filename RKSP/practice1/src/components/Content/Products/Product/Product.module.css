@@ -1,0 +1,49 @@
+/* Product.module.css */
+
+.product {
+  width: min-content;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(250, 235, 215, 0.434);
+  position: relative;
+}
+
+.product img {
+  max-width: 100%;
+  height: 70px;
+}
+
+.product h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-size: 16px;
+  color: #333;
+}
+
+.product a {
+  text-decoration: none;
+  color: gray;
+}
+
+.button {
+  background-color: #4caf50; /* Зеленый цвет */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #45a049; /* Темнозеленый при наведении */
+}
